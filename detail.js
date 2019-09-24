@@ -16,7 +16,7 @@ export class Detail {
   getList() {
     if (!this.master.selectedkey) return ``
     return Pikari.data.get(this.master.selectedkey).reduce((result, item) => result + `
-<li id="${item.name}" class="detailli">
+<li id="${item.name}">
   <p>${item.name} ${item.amount}</p>
 </li>`, '')
   }
