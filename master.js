@@ -6,8 +6,6 @@ export class Master {
     this.detail = new Detail(this)    
     this.selectedkey = null
 
-    e("clearbutton").addEventListener('click', function() { if (confirm("Really?")) Pikari.dropData() })
-
     e("masterinput").addEventListener('change', async function() {
       const name = Pikari.clean(e("masterinput").value)
       if (Pikari.data.has(name)) return alert("Name already exists")
