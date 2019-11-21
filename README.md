@@ -1,4 +1,4 @@
 # List-Pikari
-How to create master-detail tables of data, CRUD and calculated fields in [Pikari](https://github.com/olliNiinivaara/Pikari/).
+How to create master-detail tables of data, CRUD and calculated fields with [Pikari](https://github.com/olliNiinivaara/Pikari/).
 
-You can test this example on-line at <https://verkkoyhteys.fi/Pikari/List>
+This example on-line *as-is* at <https://verkkoyhteys.fi/pikari/list>
